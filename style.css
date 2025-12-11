@@ -31,6 +31,8 @@ li{
     background-color: cornflowerblue;
     padding: 10px;
     margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
 
 }
 #input{

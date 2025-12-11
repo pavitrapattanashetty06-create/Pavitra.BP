@@ -20,12 +20,4 @@ function addstudent() {
     document.querySelector('#list').appendChild(li);
 
     input.value ='';
-    let edit=document.createElement('button');
-    edit.innerText='edit';
-    edit.onclick=function(){
-        li.remove();
-    
-    }
-   
-    li.appendChild(edit);
 }
